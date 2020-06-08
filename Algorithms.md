@@ -18,8 +18,8 @@ class Solution{
         }
 
         reverse(nums , 0 , n-1);
-        reverse(nums, 0, d-1);
-        reverse(nums, d, n-1);
+        reverse(nums, 0, d-1); //line 14
+        reverse(nums, d, n-1); //line 15
 
         for(int i = 0; i<n ; i++){
             System.out.print(nums[i] +" ");
