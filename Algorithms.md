@@ -148,7 +148,7 @@ public class merge{
 }
 ```
 ## 4. Knuth Morris Patt algorithm (String Manipulation)
-
+### To find a pattern within a string
 ```java
 import java.util.*;
 class KMP {
