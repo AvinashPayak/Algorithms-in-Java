@@ -276,7 +276,7 @@ class Solution {
 ```
 
 ## 7. Manacher's Algorithm
-## To find longest palindrome substring
+### To find longest palindrome substring
 
 ```java 
 import java.util.*; 
