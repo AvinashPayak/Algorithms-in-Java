@@ -38,7 +38,7 @@ class Solution {
 ### `2. Send inputs to `reverse` method`
 ### `3. swap first element with last using temp variable`
 ```java
-public class arrayReverse { 
+public class Solution { 
   
     /*function swaps the array's first element with last element,  
       second element with last second element and so on*/
