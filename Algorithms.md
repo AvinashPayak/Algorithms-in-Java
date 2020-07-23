@@ -418,7 +418,7 @@ class QuickSort
 	} 
 } 
 ```
-## 9. Bubblesort Algorithm
+## 9. BubbleSort Algorithm
 
 ```java
 import java.util.Scanner;
@@ -455,6 +455,45 @@ class Solution {
                 break;
             }
         }
+    }
+}
+```
+## 10. Binary Search 
+
+```java
+import java.util.Scanner;
+import java.util.Arrays;
+
+class Solution {
+    public static void main(String args[]){
+        Scanner pp = new Scanner(System.in);
+        int n = pp.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0;i<n;i++){
+            arr[i] = pp.nextInt();
+        }
+        Arrays.sort(arr);
+        int x = pp.nextInt();
+        System.out.print(binarysearch(arr, n, x));
+        pp.close();
+    }
+
+    static int binarysearch(int[] arr, int n, int x){
+        int start = 0;
+        int end = n-1;
+        while (start<=end){
+            int mid = (start+end)/2;
+            if(arr[mid]==x){
+                return mid;
+            }
+            else if(arr[mid]>x){
+                end = mid-1;
+            }
+            else {
+                start = mid +1;
+            }
+        }
+        return -1;
     }
 }
 ```
