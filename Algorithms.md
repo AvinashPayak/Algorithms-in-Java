@@ -152,7 +152,8 @@ class KMP {
 ```
 ## 9. Stairs and Ladders Algorithm `Dynamic Programming`
 ```java
-// To find number of minimum jumps required to reach end of an array. Each element of array represents max number of jumps it can make.
+/* To find number of minimum jumps required to reach end of an array. 
+Each element of array represents max number of jumps it can make.*/
 import java.util.Scanner;
 class Solution {
     public static void main(String[] args) {
